@@ -11,8 +11,14 @@ p {
   border-color: black;
   border-radius: 2em;
   border-style: solid;
+  display: flex;
+  flex-direction: row;
 }
 
 .img {
-  max-width: 20%;
+  max-width: 100%;
+}
+
+.produkt_1 {
+  padding: 3em;
 }
