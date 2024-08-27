@@ -3,8 +3,16 @@
   margin: 0;
   padding: 0;
 }
-
-#produkt_1 {
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.produkter {
   border-color: black;
   border-radius: 2em;
+  border-style: solid;
+}
+
+.img {
+  max-width: 20%;
 }
