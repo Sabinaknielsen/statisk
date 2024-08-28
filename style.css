@@ -133,3 +133,11 @@ p {
 .produkt_1 {
   padding: 3em;
 }
+
+.produkter_2 {
+  border-color: black;
+  border-style: solid;
+  display: flex;
+  flex-direction: row;
+  margin: 3em;
+}
