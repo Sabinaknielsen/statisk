@@ -3,53 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Statisk</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Produktdetaljer</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <!DOCTYPE html>
-  <html lang="da">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Statisk</title>
-      <link rel="stylesheet" href="style.css" />
-      <link rel="stylesheet" href="layout.css" />
-    </head>
-    <body>
-      <header>
-        <section class="top-nav">
-          <a href="index.html" class="logo-container">
-            <img src="icons/letter-s.png" alt="Logo" class="logo" />
-          </a>
-          <input id="menu-toggle" type="checkbox" />
-          <label class="menu-button-container" for="menu-toggle">
-            <div class="menu-button"></div>
-          </label>
-          <nav>
-            <ul class="menu">
-              <li><a href="index.html">Forside</a></li>
-              <li><a href="">Om brandet</a></li>
-              <li><a href="">Kontakt os</a></li>
-            </ul>
-          </nav>
-        </section>
-      </header>
-      <h1>Fashion By S</h1>
-      <h2>Fashion er sejt</h2>
-      <main>
-        <section class="produkter_1">
-          <div class="produkt_2">
-            <img class="img" src="img/1573.webp" alt="Produkt" />
-          </div>
-          <div class="produkt_3">
-            <h2>Produkt information</h2>
-            <p><strong>Model navn</strong> <br> Sahara Team India Fanwear </p>
-            <p><strong>Farve</strong> <br> Blå</p>
-            <p><strong>Inventar nummer</strong> <br> 1163</p>
-<h2>Nike</h2>
-<p>Nike, creating experiences for today's athlete.</p>
-          </div>
-          </main>
-    <footer></footer>
+  <body>
+    <header>
+      <h1>Produktnavn</h1>
+    </header>
+    <main>
+      <div class="product-detail">
+        <img
+          src="https://kea-alt-del.dk/t7/images/webp/640/1573.webp"
+          alt="Produktbillede"
+        />
+        <h2>Produktnavn</h2>
+        <p>Pris: 199 DKK</p>
+        <!-- Hvis udsolgt -->
+        <p class="udsolgt">Udsolgt</p>
+        <!-- Hvis på tilbud -->
+        <p class="nedsat">Tilbudspris: 149 DKK</p>
+        <p>Beskrivelse: Dette er en detaljeret beskrivelse af produktet.</p>
+      </div>
+    </main>
   </body>
 </html>
