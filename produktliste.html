@@ -3,135 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Statisk</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="layout.css" />
+    <title>Produktliste</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <section class="top-nav">
-        <a href="index.html" class="logo-container">
-          <img src="icons/letter-s.png" alt="Logo" class="logo" />
-        </a>
-        <input id="menu-toggle" type="checkbox" />
-        <label class="menu-button-container" for="menu-toggle">
-          <div class="menu-button"></div>
-        </label>
-        <nav>
-          <ul class="menu">
-            <li><a href="index.html">Forside</a></li>
-            <li><a href="">Om brandet</a></li>
-            <li><a href="">Kontakt os</a></li>
-          </ul>
-        </nav>
-      </section>
+      <h1>Produkter</h1>
     </header>
-    <h1>Fashion By S</h1>
-    <h2>Fashion er sejt</h2>
     <main>
-      <section class="produkter">
-        <h2></h2>
-        <div class="produkt_1">
-          <img class="img" src="img/1573.webp" alt="Produkt" />
-          <h3>Produktnavn</h3>
-          <p>produktbeskrivelse</p>
-          <p class="pris">249,-</p>
-          <a href="produkt.html"></a>
+      <div class="product-grid">
+        <!-- Produkt kort eksempel -->
+        <div class="product-card">
+          <a href="produkt.html">
+            <img
+              src="https://kea-alt-del.dk/t7/images/webp/640/1573.webp"
+              alt="Produktbillede"
+            />
+            <h2>Produktnavn</h2>
+            <p>Pris: 199 DKK</p>
+            <!-- Hvis udsolgt -->
+            <p class="udsolgt">Udsolgt</p>
+            <!-- Hvis på tilbud -->
+            <p class="nedsat">Tilbudspris: 149 DKK</p>
+          </a>
         </div>
-
-        <div class="produkt_1">
-          <img class="img" src="img/1573.webp" alt="Produkt" />
-          <h3>Produktnavn</h3>
-          <p>produktbeskrivelse</p>
-          <p class="pris">249,-</p>
-          <a href="produkt.html"></a>
-        </div>
-
-        <div class="produkt_1">
-          <img class="img" src="img/1573.webp" alt="Produkt" />
-          <h3>Produktnavn</h3>
-          <p>produktbeskrivelse</p>
-          <p class="pris">249,-</p>
-          <a href="produkt.html"></a>
-        </div>
-
-        <div class="produkt_1">
-          <img class="img" src="img/1573.webp" alt="Produkt" />
-          <h3>Produktnavn</h3>
-          <p>produktbeskrivelse</p>
-          <p class="pris">249,-</p>
-          <a href="produkt.html"></a>
-        </div>
-      </section>
-      <section class="produkter">
-        <h2></h2>
-        <div class="produkt_1">
-          <img class="img" src="img/1573.webp" alt="Produkt" />
-          <h3>Produktnavn</h3>
-          <p>produktbeskrivelse</p>
-          <p class="pris">249,-</p>
-          <a href="produkt.html"></a>
-        </div>
-
-        <div class="produkt_1">
-          <img class="img" src="img/1573.webp" alt="Produkt" />
-          <h3>Produktnavn</h3>
-          <p>produktbeskrivelse</p>
-          <p class="pris">249,-</p>
-          <a href="produkt.html"></a>
-        </div>
-
-        <div class="produkt_1">
-          <img class="img" src="img/1573.webp" alt="Produkt" />
-          <h3>Produktnavn</h3>
-          <p>produktbeskrivelse</p>
-          <p class="pris">249,-</p>
-          <a href="produkt.html"></a>
-        </div>
-
-        <div class="produkt_1">
-          <img class="img" src="img/1573.webp" alt="Produkt" />
-          <h3>Produktnavn</h3>
-          <p>produktbeskrivelse</p>
-          <p class="pris">249,-</p>
-          <a href="produkt.html"></a>
-        </div>
-      </section>
-      <section class="produkter">
-        <h2></h2>
-        <div class="produkt_1">
-          <img class="img" src="img/1573.webp" alt="Produkt" />
-          <h3>Produktnavn</h3>
-          <p>produktbeskrivelse</p>
-          <p class="pris">249,-</p>
-          <a href="produkt.html"></a>
-        </div>
-
-        <div class="produkt_1">
-          <img class="img" src="img/1573.webp" alt="Produkt" />
-          <h3>Produktnavn</h3>
-          <p>produktbeskrivelse</p>
-          <p class="pris">249,-</p>
-          <a href="produkt.html"></a>
-        </div>
-
-        <div class="produkt_1">
-          <img class="img" src="img/1573.webp" alt="Produkt" />
-          <h3>Produktnavn</h3>
-          <p>produktbeskrivelse</p>
-          <p class="pris">249,-</p>
-          <a href="produkt.html"></a>
-        </div>
-
-        <div class="produkt_1">
-          <img class="img" src="img/1573.webp" alt="Produkt" />
-          <h3>Produktnavn</h3>
-          <p>produktbeskrivelse</p>
-          <p class="pris">249,-</p>
-          <a href="produkt.html"></a>
-        </div>
-      </section>
+        <!-- Kopier flere gange for at fylde siden -->
+      </div>
     </main>
-    <footer></footer>
   </body>
 </html>
