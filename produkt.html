@@ -11,19 +11,33 @@
       <h1>Produktnavn</h1>
     </header>
     <main>
-      <div class="product-detail">
-        <img
-          src="https://kea-alt-del.dk/t7/images/webp/640/1573.webp"
-          alt="Produktbillede"
-        />
-        <h2>Produktnavn</h2>
-        <p>Pris: 199 DKK</p>
-        <!-- Hvis udsolgt -->
-        <p class="udsolgt">Udsolgt</p>
-        <!-- Hvis på tilbud -->
-        <p class="nedsat">Tilbudspris: 149 DKK</p>
-        <p>Beskrivelse: Dette er en detaljeret beskrivelse af produktet.</p>
-      </div>
+      <main>
+        <main>
+          <div class="product-detail">
+            <img
+              src="https://kea-alt-del.dk/t7/images/webp/640/1573.webp"
+              alt="Produktbillede"
+            />
+            <h2>Produktnavn</h2>
+            <p>Pris: 199 DKK</p>
+            <p class="udsolgt">Udsolgt</p>
+            <!-- Fjern eller tilføj denne linje efter behov -->
+            <p class="nedsat">Tilbudspris: 149 DKK</p>
+            <p>Beskrivelse: Dette er en detaljeret beskrivelse af produktet.</p>
+
+            <form>
+              <label for="size">Vælg størrelse:</label>
+              <select id="size" name="size">
+                <option value="">Vælg størrelse</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+              </select>
+              <button type="submit">Tilføj til kurv</button>
+            </form>
+          </div>
+        </main>
+      </main>
     </main>
   </body>
 </html>
