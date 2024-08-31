@@ -48,3 +48,19 @@ nav ul li {
   color: green;
   font-weight: bold;
 }
+
+.category-list {
+  display: flex; /* Gør ul til en flex container */
+  flex-wrap: wrap; /* Tillad indhold at bryde til flere linjer */
+  list-style: none; /* Fjern punkttegnene fra ul */
+  padding: 0; /* Fjern standard padding */
+  margin: 0; /* Fjern standard margin */
+}
+
+.category-list li {
+  width: 50%; /* Hver kasse tager 50% af bredden */
+  padding: 10px; /* Indvendig margin */
+  box-sizing: border-box; /* Inkluder padding og border i elementets samlede bredde */
+  border: 1px solid #ddd; /* En tynd grå kant rundt om kassen */
+  text-align: center; /* Centrer teksten */
+}
