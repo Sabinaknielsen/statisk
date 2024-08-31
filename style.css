@@ -58,7 +58,7 @@ nav ul li {
 }
 
 .category-list li {
-  width: 50%; /* Hver kasse tager 50% af bredden */
+  flex: 0 0 50%; /* Hver kasse fylder præcis 50% af bredden */
   padding: 10px; /* Indvendig margin */
   box-sizing: border-box; /* Inkluder padding og border i elementets samlede bredde */
   border: 1px solid #ddd; /* En tynd grå kant rundt om kassen */
