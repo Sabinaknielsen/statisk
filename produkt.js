@@ -1,6 +1,6 @@
 const urlParams = new URLSearchParams(window.location.search);
 const id = urlParams.get("id")
-
+-
 
 fetch("https://kea-alt-del.dk/t7/api/products/" + id)
 .then(Response=>Response.json())
@@ -10,8 +10,8 @@ fetch("https://kea-alt-del.dk/t7/api/products/" + id)
 function showProduct(product) {
 console.log(product);
 document.querySelector(".productdetail h2").textContent=product.productdisplayname;
-document.querySelector(".productdetail brand").textContent=product.brandname;
-document.querySelector("img").src= "https://kea-alt-del.dk/t7/images/webp/640/1573${product.id}.webp"
+document.querySelector(".productdetail .brand").textContent=product.brandname;
+document.querySelector("img").src = `https://kea-alt-del.dk/t7/images/webp/640/${product.id}.webp`;
 
 }
 

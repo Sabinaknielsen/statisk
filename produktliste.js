@@ -20,7 +20,7 @@ const template = document.querySelector("#smallProductTemplate").content;
 const copy = template.cloneNode(true)
     //ændre indhold
     copy.querySelector("h2").textcontet=product.productdisplayname;
-document.querySelector("main .product-grid").appendChild(copy);
+document.querySelector("main ").appendChild(copy);
 if(product.soldout) {
     copy.querySelector("section").classlist.add(copy);
 }
