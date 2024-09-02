@@ -1,4 +1,4 @@
-
+const url = "https://kea-alt-del.dk/t7/api/products" ;
 
 
 const skabelon = document.querySelector("template").content;
@@ -21,10 +21,10 @@ const template = document.querySelector("smallProductTemplate").content;
     //lav en kopi
 const copy = template.cloneNode(true)
     //ændre indhold
-    copy.querySelector("h3").textcontet=product.productdisplayname;
+    copy.querySelector("h2").textcontet=product.productdisplayname;
 document.querySelector("main").appendChild(copy);
 if(product.soldout) {
-    copy.querySelector("arcticle").classlist.add(copy);
+    copy.querySelector("section").classlist.add(copy);
 }
     //appende
     }
