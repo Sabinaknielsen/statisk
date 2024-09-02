@@ -13,7 +13,7 @@ function init() {
 function handleData(json) {
   console.log("json", json);
 
-  document.querySelector("h1").textContent = json.productdisplayname;
+  document.querySelector("h2").textContent = json.productdisplayname;
   document.querySelector("p").textContent = json.brandbio;
 
   document.querySelector("img").src = imgURI;
