@@ -15,12 +15,12 @@ products.forEach(showProducts)
 function showProducts (product){
     console.log(product);
     //fang template
-const template = document.querySelector("smallProductTemplate").content;
+const template = document.querySelector("#smallProductTemplate").content;
     //lav en kopi
 const copy = template.cloneNode(true)
     //ændre indhold
     copy.querySelector("h2").textcontet=product.productdisplayname;
-document.querySelector("main").appendChild(copy);
+document.querySelector("main .product-grid").appendChild(copy);
 if(product.soldout) {
     copy.querySelector("section").classlist.add(copy);
 }
