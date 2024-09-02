@@ -6,7 +6,8 @@ fetch("https://kea-alt-del.dk/t7/api/products/1163")
 function showProduct(product) {
 console.log(product);
 document.querySelector(".productdetail h2").textContent=product.productdisplayname;
-
+document.querySelector(".productdetail brand").textContent=product.brandname;
+document.querySelector("img").src= "https://kea-alt-del.dk/t7/images/webp/640/1573${product.id}.webp"
 
 }
 
