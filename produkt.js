@@ -3,7 +3,7 @@ fetch("https://kea-alt-del.dk/t7/api/products/1163")
 .then(data=>showProduct(data));
 
 
-function showProduct(product){
+function showProduct(product) {
 console.log(product);
 document.querySelector(".productdetail h2").textContent=product.productdisplayname;
 
