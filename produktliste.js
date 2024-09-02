@@ -1,8 +1,3 @@
-const url = "https://kea-alt-del.dk/t7/api/products" ;
-
-
-const skabelon = document.querySelector("template").content;
-const container = document.querySelector("main").content;
 
 
     fetch("https://kea-alt-del.dk/t7/api/products")
@@ -14,6 +9,9 @@ function showProducts (products){
 //Looper og kalder showProduct
 products.forEach(showProducts)
 }
+
+
+
 function showProducts (product){
     console.log(product);
     //fang template
@@ -26,6 +24,8 @@ document.querySelector("main").appendChild(copy);
 if(product.soldout) {
     copy.querySelector("section").classlist.add(copy);
 }
+
+copy.querySelector(".read-more").setAttribute("href" ,`product.html?id=` )
     //appende
     }
     
