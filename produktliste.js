@@ -33,7 +33,7 @@ const template = document.querySelector("#smallProductTemplate").content;
 const copy = template.cloneNode(true)
     copy.querySelector("h2").textcontet=product.productdisplayname;
 document.querySelector("main ").appendChild(copy);
-if(product.soldout) {
+if(product.udsolgt) {
     copy.querySelector("section").classlist.add(copy);
 }
 
