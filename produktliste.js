@@ -16,10 +16,13 @@ fetch(url)
 .then((products) => showProducts(products));
 
 }
+
 function showProducts (products){
-products.forEach (product) => (
+products.forEach ((product) => {
     console.log(product);
     const copy = skabelon.cloneNode(true);
+    copy.querySelector("img").scr = `https://kea-alt-del.dk/t7/images/webp/640/$(product.id).webp`;
+}
 )
 }
 
