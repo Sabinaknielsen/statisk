@@ -8,19 +8,21 @@ const container = document.querySelector("main")
 
 
 
-    fetch("https://kea-alt-del.dk/t7/api/products")
-    .then(res=>res.json())
-.then(showProducts)
+
 
 function henData(){
 fetch(url)
 .then((res) => res.json())
+.then((products) => showProducts(products));
 
 }
 function showProducts (products){
-//Looper og kalder showProduct
-products.forEach(showProducts)
+products.forEach (product) => (
+    console.log(product);
+    const copy = skabelon.cloneNode(true);
+)
 }
+
 
 
 
